@@ -1,6 +1,6 @@
-import { Box } from "@mui/material/Box";
-import { Button } from "@mui/material/Button";
-import { TextField } from "@mui/material/TextField";
+import Box  from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
 import { Formik } from "formik";
 import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -95,7 +95,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 1"
+                label="Address"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address1}
@@ -108,7 +108,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 2"
+                label="Medical Hiistory"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address2}

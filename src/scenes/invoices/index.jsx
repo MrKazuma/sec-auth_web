@@ -29,17 +29,17 @@ const Invoices = () => {
     },
     {
       field: "cost",
-      headerName: "Cost",
+      headerName: "Total Amount",
       flex: 1,
       renderCell: (params) => (
         <Typography color={colors.greenAccent[500]}>
-          ${params.row.cost}
+          Rs.{params.row.cost}
         </Typography>
       ),
     },
     {
       field: "date",
-      headerName: "Date",
+      headerName: "Date of Discharge",
       flex: 1,
     },
   ];

@@ -1,5 +1,5 @@
 import { ResponsiveLine } from "@nivo/line";
-import { useTheme } from "@mui/material/styles";
+import useTheme from "@mui/material/styles/useTheme";
 import { tokens } from "../theme";
 import { mockLineData as data } from "../data/mockData";
 
@@ -62,7 +62,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickSize: 0,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "transportation", 
+        legend: isDashboard ? undefined : "Period", 
         legendOffset: 36,
         legendPosition: "middle",
       }}
@@ -72,7 +72,7 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false }) => {
         tickSize: 3,
         tickPadding: 5,
         tickRotation: 0,
-        legend: isDashboard ? undefined : "count", 
+        legend: isDashboard ? undefined : "Databits", 
         legendOffset: -40,
         legendPosition: "middle",
       }}

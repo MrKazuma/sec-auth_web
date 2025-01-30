@@ -1,4 +1,4 @@
-import { Box } from "@mui/material/Box";
+import Box  from "@mui/material/Box";
 import { useTheme } from "@mui/material/styles";
 import Header from "../../components/Header";
 import Accordion from "@mui/material/Accordion";
@@ -18,65 +18,65 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An Important Question
+             Question - 1
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          How do I add a new patient to the system?
+          Go to the Patients section, click "Add New Patient", and enter the required details, including medical history and contact information.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            Another Important Question
+             Question - 2
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Can I update or edit a patient’s medical records?
+          Yes, you can update patient records by navigating to their profile and clicking "Edit" to modify diagnoses, prescriptions, and notes.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            Your Favorite Question
+             Question - 3
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Is patient data securely stored?
+          Absolutely! The system follows HIPAA/GDPR compliance and uses encryption to protect patient data.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            Some Random Question
+             Question - 4
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Can I access the web app on multiple devices?
+          Yes, the app is accessible on desktop, tablet, and mobile, ensuring seamless access to patient records from anywhere.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            The Final Question
+             Question - 5
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          How do I generate reports or analytics for my patients?
+          You can generate reports by selecting the Reports section and filtering data based on patient history, treatment plans, or billing.
           </Typography>
         </AccordionDetails>
       </Accordion>

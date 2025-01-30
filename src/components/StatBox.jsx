@@ -1,6 +1,6 @@
-import Box from "@mui/material";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { useTheme } from "@mui/material/styles";
+import useTheme from "@mui/material/styles/useTheme";
 import { tokens } from "../theme";
 import ProgressCircle from "./ProgressCircle";
 
