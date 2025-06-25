@@ -8,7 +8,7 @@ Sec-Auth is a **secure, user-friendly portal** for healthcare professionals to a
 
 ## 🖥️ Preview
 
-![Sec-Auth Screenshot](./assets/sec-auth.png)
+![Sec-Auth Screenshot](./public/assets/sec-auth.png)
 
 ---
 
